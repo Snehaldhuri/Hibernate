@@ -71,7 +71,7 @@ public class Employee { //employee
 	public void setEmpAddr(List<String> empAddr) {
 		this.empAddr = empAddr;
 	}
-
+	// param const
 	public Employee(int empId, String empName, double empSal, List<String> empAddr) {
 		super();
 		this.empId = empId;
@@ -84,6 +84,7 @@ public class Employee { //employee
 		super();
 	}
 
+	// to string method
 	@Override
 	public String toString() {
 		return "Employee [empId=" + empId + ", empName=" + empName + ", empSal=" + empSal + ", empAddr=" + empAddr
