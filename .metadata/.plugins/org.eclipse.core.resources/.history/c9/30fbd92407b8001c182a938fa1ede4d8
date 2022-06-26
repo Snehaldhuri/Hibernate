@@ -1,0 +1,25 @@
+package com.model;
+
+/**
+ * @author visha
+ *
+ */
+
+//alt+shift +s  --> R
+//alt+shift +s  --> o
+//alt+shift +s  --> s
+
+@Entity
+@Table(name="empl")
+public class Employee { //employee
+	
+	@Id
+	@Column(name = "eid")
+	private int empId;
+	@Column(name ="ename")
+	private String empName;
+	@Column(name ="esal")
+	private double empSal;
+	
+	private List<String> empAddr = null;
+	
